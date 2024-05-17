@@ -111,7 +111,7 @@ int main(int argc, char **argv)
     printf("Ton score est de %d\n", score);
     msg.code = SCORE_ENTERED;
     msg.score = score;
-    printf("Envoi de ton score%d\n",msg.score);
+    printf("Envoi de ton score %d\n",msg.score);
     swrite(sockfd, &msg, sizeof(msg));
     printf("Ton score a été envoyé\n");
 
