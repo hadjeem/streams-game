@@ -1,7 +1,7 @@
 #ifndef _GAME_H_
 #define _GAME_H_
 
-#define MAX_TILE 41
+#define MAX_TILE 40
 
 #include "config.h"
 
