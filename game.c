@@ -19,7 +19,7 @@ int randomTile(int *tilesTab){
 int* createTileTab() {
     static int tileTab[MAX_TILE];
     int i;
-    for (i = 0; i < 30; i++) {
+    for (i = 0; i < 31; i++) {
         tileTab[i] = i + 1;
     }
     int doubler = 11;
