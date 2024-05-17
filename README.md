@@ -14,10 +14,12 @@ The winner is the player with the highest score at the end of the game.
 make
 ```
 2. In the same terminal choose the port of your choice and run
+for example :
 ```bash
-./server port
+./server 9450
 ```
 3. And now run as many players as you wish using the same port you chose before (remember min 2 players)
+for example
 ```bash
 ./client port
 ```
