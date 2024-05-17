@@ -21,5 +21,5 @@ for example :
 3. And now run as many players as you wish using the same port you chose before (remember min 2 players)
 for example
 ```bash
-./client port
+./client 9450
 ```
